@@ -1,5 +1,4 @@
 export interface DashboardData {
-    symbol: string
-    currency: string
-    shortname: string
+    nome: string
+    email: string
 }

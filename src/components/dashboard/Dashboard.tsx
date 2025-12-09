@@ -3,17 +3,15 @@ import './Dashboard.css'
 
 const Dashboard = () => {
     const dashboardData: DashboardData = {
-        symbol: 'ARBT',
-        currency: 'USD',
-        shortname: 'Arbitrary Inc.'
+        nome: 'João Silva',
+        email: 'example@mail.com',
     }
 
     return (
         <div>
             <div className='container-dashboard'>
-                <h2>{dashboardData.symbol}</h2>
-                <p><b>Currency:</b> {dashboardData.currency}</p>
-                <p><b>Shortname:</b> {dashboardData.shortname}</p>
+                <h2>{dashboardData.nome}</h2>
+                <p><b>Email:</b> {dashboardData.email}</p>
             </div>
         </div>
     )

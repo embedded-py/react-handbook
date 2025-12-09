@@ -30,7 +30,6 @@ const Cadastro = () => {
                             required      
                             />
                         </div>
-
                         <button type='submit' className='button-submit'>Cadastrar</button>
                     </form>
                 </div>

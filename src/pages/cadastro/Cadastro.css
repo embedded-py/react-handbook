@@ -1,5 +1,5 @@
 .form-container {
-    padding: 5%;
+    padding: 2rem;
 }
 
 .form-field {
@@ -8,7 +8,7 @@
 
 label {
     display: flex;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 
 input {
